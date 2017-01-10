@@ -1,0 +1,12 @@
+.box {
+    position: relative;
+    float: left;
+    background-color: lightgray;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.box:nth-child(10n+1) {
+    clear:left;
+}
